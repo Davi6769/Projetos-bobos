@@ -26,7 +26,7 @@ def repeticao(operacao):
             break
 
 
-#CALCULADORA
+#CALCULADORAaaaaaaaa
 while True:
     print()
     print("CALCULADORA")
