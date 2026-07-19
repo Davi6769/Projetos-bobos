@@ -1,10 +1,11 @@
 
 
 #JOGO
+import random
+
 vitorias = 0
 derrotas = 0
 while True:
-    import random
     opcoes_do_pleyer = ["1-pedra","2-papel","3-tesoura", "0-não quero joga"]
     opcoes = ["pedra","papel","tesoura"]
 
