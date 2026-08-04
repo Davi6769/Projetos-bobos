@@ -21,7 +21,7 @@ def temperaturas(escolha):
 
             denovo = input("gostaria de repetir a conta [n/y]: ")
 
-            repeticao(denovo)
+            denovo = repeticao(denovo)
 
             if denovo == "y":
                 print("Ok")
@@ -64,7 +64,7 @@ def temperaturas(escolha):
 
             denovo = input("gostaria de repetir a conta [n/y]: ")
 
-            repeticao(denovo)
+            denovo = repeticao(denovo)
 
             if denovo == "y":
                 print("Ok")
@@ -86,7 +86,7 @@ def temperaturas(escolha):
 
             denovo = input("gostaria de repetir a conta [n/y]: ")
 
-            repeticao(denovo)
+            denovo = repeticao(denovo)
 
             if denovo == "y":
                 print("Ok")

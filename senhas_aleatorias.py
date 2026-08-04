@@ -21,4 +21,4 @@ for i in range(8):
 
 senha_final = "".join(senha)
 
-print(f"\nSua nova senha é: {senha_final.title()}")
+print(f"\nSua nova senha é: {senha_final.capitalize()}")
