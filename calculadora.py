@@ -20,8 +20,8 @@ def menu():
   
 
 def numeros():
-    numero1 = int(input("Digite um numero: "))
-    numero2 = int(input("Digite outro numero: "))
+    numero1 = float(input("Digite um numero: "))
+    numero2 = float(input("Digite outro numero: "))
     return numero1, numero2
 
 def soma():
