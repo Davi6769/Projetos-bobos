@@ -2,6 +2,7 @@ from colorama import Fore, Style
 from time import sleep
 
 opcoes = ["(1)-Soma", "(2)-Subtração", "(3)-Multiplicação", "(4)-Divisão", "(X)-Sair"]
+fim = 0
 
 
 def voltar():
@@ -56,6 +57,24 @@ def divisão():
     print(f"{numero1} / {numero2} = {resposta}")
     voltar()
 
+def decidir(escolha):
+    if escolha == "1":
+        soma()
+
+    elif escolha == "2":
+        subtracao()
+
+    elif escolha == "3":
+        multiplicacao()
+
+    elif escolha == "4":
+        divisão()
+
+    else:
+        fim = 1
+        return fim
+
+
 
 #CALCULADORA
 
@@ -79,17 +98,7 @@ while True:
 
     escolha = menu()
 
-    if escolha == "1":
-        soma()
+    fim = decidir(escolha)
 
-    elif escolha == "2":
-        subtracao()
-
-    elif escolha == "3":
-        multiplicacao()
-
-    elif escolha == "4":
-        divisão()
-
-    else:
+    if fim == 1:
         break
